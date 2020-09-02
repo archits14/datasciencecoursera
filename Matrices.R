@@ -25,3 +25,17 @@ colnames(stock.matrix) <- days
 rownames(stock.matrix) <- st.names
 
 print(stock.matrix)
+
+colSums(stock.matrix)
+
+rowSums(stock.matrix)
+
+rowMeans(stock.matrix)
+
+colMeans(stock.matrix)
+
+FB <- c(343,243,121,332,112)
+
+tech.stocks <- rbind(stock.matrix,FB)
+tech.stocks
+

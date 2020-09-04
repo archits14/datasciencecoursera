@@ -39,3 +39,7 @@ FB <- c(343,243,121,332,112)
 tech.stocks <- rbind(stock.matrix,FB)
 tech.stocks
 
+avg <- rowMeans(tech.stocks)
+avg
+
+tech.stocks[1,2]
